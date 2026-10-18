@@ -1,0 +1,12 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+overrides:
+  libsodium-wrappers-sumo: "^0.8.4"
+  libsodium-sumo: "^0.8.4"
+
+allowBuilds:
+  chacha-native: true
+  cpu-features: true
+  ssh2: true

@@ -1,0 +1,2 @@
+    Compiling feed-me/contracts 0.0.0 (F:\projects\feed-me\packages\contracts)
+    Compiling aiken-lang/stdlib v4.0.0 (F:\projects\feed-me\packages\contracts\build\packages\aiken-lang-stdlib)

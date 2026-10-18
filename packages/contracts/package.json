@@ -1,0 +1,10 @@
+{
+  "name": "@feed-me/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "aiken build",
+    "test": "aiken check",
+    "check": "aiken check"
+  }
+}
