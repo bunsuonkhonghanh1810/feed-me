@@ -10,10 +10,18 @@ const config: Config = {
     extend: {
       colors: {
         "canteen-amber": "#FFB703",
+        "canteen-amber-light": "#FFDE82",
         "fresh-mint": "#06D6A0",
+        "fresh-mint-dark": "#005D43",
         "warm-terracotta": "#E76F51",
+        "terracotta-dark": "#731A04",
         "deep-navy": "#1D3557",
         "soft-cream": "#FFFDF9",
+        "surface": "#F9F9FF",
+        "surface-container-low": "#F0F3FF",
+        "surface-container": "#E7EEFF",
+        "surface-container-high": "#DEE8FF",
+        "surface-card": "#FFFFFF",
       },
       fontFamily: {
         sans: ["var(--font-plus-jakarta-sans)", "Plus Jakarta Sans", "sans-serif"],
