@@ -51,3 +51,21 @@ test test_isqrt_non_squares() {
     isqrt(143) == 11,
   }
 }
+
+pub fn is_consensus_reached(yes_votes: Int, total_votes: Int) -> Bool {
+  total_votes > 0 && yes_votes >= 0 && yes_votes <= total_votes && yes_votes * 4 >= total_votes * 3
+}
+
+test test_consensus_boundary() {
+  and {
+    is_consensus_reached(75, 100),
+    is_consensus_reached(80, 100),
+    !is_consensus_reached(74, 100),
+    !is_consensus_reached(0, 100),
+    !is_consensus_reached(0, 0),
+    is_consensus_reached(3, 4),
+    !is_consensus_reached(2, 3),
+    is_consensus_reached(100, 100),
+  }
+}
+
