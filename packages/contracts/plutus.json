@@ -12,90 +12,109 @@
   },
   "validators": [
     {
-      "title": "placeholder.placeholder.mint",
-      "redeemer": {
-        "title": "_redeemer",
-        "schema": {
-          "$ref": "#/definitions/Data"
-        }
-      },
-      "compiledCode": "58d001010029800aba2aba1aab9eaab9dab9a48888966002646465300130053754003300700398038012444b30013370e9000001c4c98dd7180518049baa0048acc004cdc3a400400713233226300b001300b300c0013009375400915980099b874801000e264c601460126ea80122b30013370e9003001c4c8cc898dd698058009805980600098049baa0048acc004cdc3a40100071326300a3009375400913233226375a60160026016601800260126ea8011007200e401c80390070c018c01c004c018004c00cdd5003452689b2b20021",
-      "hash": "f2388d136606a27c4a531d0040c3e12e07eb95cd5011793c160707dc"
-    },
-    {
-      "title": "placeholder.placeholder.spend",
+      "title": "vote_ticket.vote_ticket.spend",
       "datum": {
-        "title": "_datum",
+        "title": "datum",
         "schema": {
-          "$ref": "#/definitions/Data"
+          "$ref": "#/definitions/vote_ticket~1VoteTicketDatum"
         }
       },
       "redeemer": {
-        "title": "_redeemer",
+        "title": "redeemer",
         "schema": {
-          "$ref": "#/definitions/Data"
+          "$ref": "#/definitions/vote_ticket~1VoteTicketRedeemer"
         }
       },
-      "compiledCode": "58d001010029800aba2aba1aab9eaab9dab9a48888966002646465300130053754003300700398038012444b30013370e9000001c4c98dd7180518049baa0048acc004cdc3a400400713233226300b001300b300c0013009375400915980099b874801000e264c601460126ea80122b30013370e9003001c4c8cc898dd698058009805980600098049baa0048acc004cdc3a40100071326300a3009375400913233226375a60160026016601800260126ea8011007200e401c80390070c018c01c004c018004c00cdd5003452689b2b20021",
-      "hash": "f2388d136606a27c4a531d0040c3e12e07eb95cd5011793c160707dc"
+      "compiledCode": "59016d01010029800aba2aba1aab9faab9eaab9dab9a48888896600264653001300700198039804000cdc3a400530070024888966002600460106ea800e2653001300c00198061806800cdc3a40009112cc004c004c030dd50044566002601a6ea80222b30013001300c37540051325980099199119801001000912cc00400629422b30013371e6eb8c04c00400e2946266004004602800280790121bac301130123012301230123012301230123012300f375400e6eb8c040c038dd5000c4c8c8cc8966002601600513259800980618091baa3015301630133754602a60266ea8016266e20008006266e240080050111bad301430123754007159800980300145284528a0204040601e6ea8004dd698091809980998099809980998081baa0033011300f37546022601e6ea8004c040c044c044c044c044c044c044c044c038dd500345282018300f300d375400516402d16403916402c3009375400716401c30070013003375400f149a26cac80081",
+      "hash": "5486d1be2d8fb1eacde55e5ffff11e682c387bf2da0b05acd0e682fb"
     },
     {
-      "title": "placeholder.placeholder.withdraw",
-      "redeemer": {
-        "title": "_redeemer",
-        "schema": {
-          "$ref": "#/definitions/Data"
-        }
-      },
-      "compiledCode": "58d001010029800aba2aba1aab9eaab9dab9a48888966002646465300130053754003300700398038012444b30013370e9000001c4c98dd7180518049baa0048acc004cdc3a400400713233226300b001300b300c0013009375400915980099b874801000e264c601460126ea80122b30013370e9003001c4c8cc898dd698058009805980600098049baa0048acc004cdc3a40100071326300a3009375400913233226375a60160026016601800260126ea8011007200e401c80390070c018c01c004c018004c00cdd5003452689b2b20021",
-      "hash": "f2388d136606a27c4a531d0040c3e12e07eb95cd5011793c160707dc"
-    },
-    {
-      "title": "placeholder.placeholder.publish",
-      "redeemer": {
-        "title": "_redeemer",
-        "schema": {
-          "$ref": "#/definitions/Data"
-        }
-      },
-      "compiledCode": "58d001010029800aba2aba1aab9eaab9dab9a48888966002646465300130053754003300700398038012444b30013370e9000001c4c98dd7180518049baa0048acc004cdc3a400400713233226300b001300b300c0013009375400915980099b874801000e264c601460126ea80122b30013370e9003001c4c8cc898dd698058009805980600098049baa0048acc004cdc3a40100071326300a3009375400913233226375a60160026016601800260126ea8011007200e401c80390070c018c01c004c018004c00cdd5003452689b2b20021",
-      "hash": "f2388d136606a27c4a531d0040c3e12e07eb95cd5011793c160707dc"
-    },
-    {
-      "title": "placeholder.placeholder.vote",
-      "redeemer": {
-        "title": "_redeemer",
-        "schema": {
-          "$ref": "#/definitions/Data"
-        }
-      },
-      "compiledCode": "58d001010029800aba2aba1aab9eaab9dab9a48888966002646465300130053754003300700398038012444b30013370e9000001c4c98dd7180518049baa0048acc004cdc3a400400713233226300b001300b300c0013009375400915980099b874801000e264c601460126ea80122b30013370e9003001c4c8cc898dd698058009805980600098049baa0048acc004cdc3a40100071326300a3009375400913233226375a60160026016601800260126ea8011007200e401c80390070c018c01c004c018004c00cdd5003452689b2b20021",
-      "hash": "f2388d136606a27c4a531d0040c3e12e07eb95cd5011793c160707dc"
-    },
-    {
-      "title": "placeholder.placeholder.propose",
-      "redeemer": {
-        "title": "_redeemer",
-        "schema": {
-          "$ref": "#/definitions/Data"
-        }
-      },
-      "compiledCode": "58d001010029800aba2aba1aab9eaab9dab9a48888966002646465300130053754003300700398038012444b30013370e9000001c4c98dd7180518049baa0048acc004cdc3a400400713233226300b001300b300c0013009375400915980099b874801000e264c601460126ea80122b30013370e9003001c4c8cc898dd698058009805980600098049baa0048acc004cdc3a40100071326300a3009375400913233226375a60160026016601800260126ea8011007200e401c80390070c018c01c004c018004c00cdd5003452689b2b20021",
-      "hash": "f2388d136606a27c4a531d0040c3e12e07eb95cd5011793c160707dc"
-    },
-    {
-      "title": "placeholder.placeholder.else",
+      "title": "vote_ticket.vote_ticket.else",
       "redeemer": {
         "schema": {}
       },
-      "compiledCode": "58d001010029800aba2aba1aab9eaab9dab9a48888966002646465300130053754003300700398038012444b30013370e9000001c4c98dd7180518049baa0048acc004cdc3a400400713233226300b001300b300c0013009375400915980099b874801000e264c601460126ea80122b30013370e9003001c4c8cc898dd698058009805980600098049baa0048acc004cdc3a40100071326300a3009375400913233226375a60160026016601800260126ea8011007200e401c80390070c018c01c004c018004c00cdd5003452689b2b20021",
-      "hash": "f2388d136606a27c4a531d0040c3e12e07eb95cd5011793c160707dc"
+      "compiledCode": "59016d01010029800aba2aba1aab9faab9eaab9dab9a48888896600264653001300700198039804000cdc3a400530070024888966002600460106ea800e2653001300c00198061806800cdc3a40009112cc004c004c030dd50044566002601a6ea80222b30013001300c37540051325980099199119801001000912cc00400629422b30013371e6eb8c04c00400e2946266004004602800280790121bac301130123012301230123012301230123012300f375400e6eb8c040c038dd5000c4c8c8cc8966002601600513259800980618091baa3015301630133754602a60266ea8016266e20008006266e240080050111bad301430123754007159800980300145284528a0204040601e6ea8004dd698091809980998099809980998081baa0033011300f37546022601e6ea8004c040c044c044c044c044c044c044c044c038dd500345282018300f300d375400516402d16403916402c3009375400716401c30070013003375400f149a26cac80081",
+      "hash": "5486d1be2d8fb1eacde55e5ffff11e682c387bf2da0b05acd0e682fb"
     }
   ],
   "definitions": {
-    "Data": {
-      "title": "Data",
-      "description": "Any Plutus data."
+    "Bool": {
+      "title": "Bool",
+      "anyOf": [
+        {
+          "title": "False",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": []
+        },
+        {
+          "title": "True",
+          "dataType": "constructor",
+          "index": 1,
+          "fields": []
+        }
+      ]
+    },
+    "ByteArray": {
+      "dataType": "bytes"
+    },
+    "Int": {
+      "dataType": "integer"
+    },
+    "aiken/crypto/VerificationKeyHash": {
+      "title": "VerificationKeyHash",
+      "dataType": "bytes"
+    },
+    "vote_ticket/PosixTime": {
+      "title": "PosixTime",
+      "dataType": "integer"
+    },
+    "vote_ticket/VoteTicketDatum": {
+      "title": "VoteTicketDatum",
+      "anyOf": [
+        {
+          "title": "VoteTicketDatum",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "voter",
+              "$ref": "#/definitions/aiken~1crypto~1VerificationKeyHash"
+            },
+            {
+              "title": "campaign_id",
+              "$ref": "#/definitions/ByteArray"
+            },
+            {
+              "title": "locked_feed_tokens",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "vote_power",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "vote_type",
+              "$ref": "#/definitions/Bool"
+            },
+            {
+              "title": "expiry",
+              "$ref": "#/definitions/vote_ticket~1PosixTime"
+            }
+          ]
+        }
+      ]
+    },
+    "vote_ticket/VoteTicketRedeemer": {
+      "title": "VoteTicketRedeemer",
+      "anyOf": [
+        {
+          "title": "ReclaimTicket",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": []
+        }
+      ]
     }
   }
 }
